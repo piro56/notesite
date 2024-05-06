@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Vidya]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Vidya</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 06 May 2024 16:26:41 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 06 May 2024 16:26:40 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[First must live the Bhagavad Gita]]></title><description><![CDATA[ 
+ <br><br>Shrimad Bhagavatam: Supreme Science of the Supreme Person<br>First Canto: Gives clear explanation of the Bhagavatam.<br>
+<br>Gives essence of the Vedas for devotees. 
+<br>Helps further devotion
+<br>Chanting helps
+<br>Do not skip anything
+<br>Gradually elevates reader to understand teachings in succession
+]]></description><link>learning\books\bhagvatam\before-you-read.html</link><guid isPermaLink="false">Learning/Books/Bhagvatam/Before You Read.md</guid><pubDate>Sun, 05 May 2024 16:45:13 GMT</pubDate></item><item><title><![CDATA[Authors]]></title><description><![CDATA[ 
+ <br>
+<br>Candrakirti
+<br>Nagarjuna
+<br>Sankaracharya
+<br>Vivekananda
+]]></description><link>learning\books\authors.html</link><guid isPermaLink="false">Learning/Books/Authors.md</guid><pubDate>Tue, 30 Apr 2024 01:19:51 GMT</pubDate></item><item><title><![CDATA[List]]></title><description><![CDATA[ 
+ <br>
+<br>&nbsp;Nāgārjuna's Madhyamaka: A Philosophical Introduction Jan Westeroff
+<br>Tattvabodha - Adi Sankaracharya
+<br>Problem of Evil in Indian Thought - Professor Arthur Herman
+<br>Bhagvatam
+<br>Satsangi Jivan
+]]></description><link>learning\books\list.html</link><guid isPermaLink="false">Learning/Books/List.md</guid><pubDate>Sat, 04 May 2024 03:09:17 GMT</pubDate></item><item><title><![CDATA[Vector Spaces]]></title><description><![CDATA[ 
+ <br><br><br>Simply the number of elements in the vector. Order is important, but no dimension is more important than another,<br><br>Dimensionality of a vector is number of coordinate axes the vector exists.<br>
+For example 2D vector is in 2D space.<br>Major departure from typical Cartesian axis:<br>
+<br>Coordinates do not need to be orthogonal (ex. x and y dimensions are orthogonal from one another)
+<br>Can have non-orthogonal axis.
+<br><br>Field - A set of numbers for which basic arithmetic operations are defined.<br>
+<br> - Real Numbers 
+<br> - Complex Numbers
+<br> - Rational Numbers
+<br>For example  stands for all real 2-dimensional numbers.<br><br>Vector Space - Any set of objects for which addition and scalar multiplication are defined.<br>Required Properties (addition and scalar multiplication):<br>
+<br>Additive Inverse: 
+<br>Associativity: 
+<br>Commutativity: 
+<br>Additive Identity: 
+<br>Multiplicative Identity: 
+<br>Distributivity: 
+<br><br><br>Subspace - is the set of all points you can reach by stretching and combining a collection of vectors (i.e. by addition and scalar multiplication)<br>With one 2-D vector, we can create a infinitely long line.<br>
+With two 2-D vectors, we can potentially reach many points -- to which we can span a plane.<br><br>Distinction between subspace and ambient space: subspace is embedded.<br>
+For example, a subspace of 2D can be embedded in a 3D ambient space.<br>Dimensionalities vs. Subspaces
+How many subspaces are possible in a ambient space?<br>
+Infinitely Many<br>
+How many subspace dimensionalities are possible with a N-dim ambient space?<br>
+Finite Number: N+1
+<br>For example, for , there are  subspace dimensionalities. .<br><br>Subspace - is the set of all points that satisfies:
+
+<br>Closed under addition and scalar multiplication
+<br>Contains zeros vector 0
+
+
+
+
+
+<br>1D subspace embedded in a a 3D ambient space
+
+<br><br>Subset - Region in space that can have boundaries instead of extending to infinity
+
+<br>Set of all points on XY plane s.t.  and 
+<br>Set of all points s.t.  and 
+<br>Set of all points s.t.  (this is also a subspace)
+
+<br><br><br>Similar to subspace, but span is the region of ambient space that can be reached by any linear combination of a set of vectors.<br>
+Can be thought of as:<br>
+<br>Subspace is a noun
+<br>Span is a verb<br>
+A set of vectors span, and the result is a subspace.
+<br><br>Span is set of all points that can be obtained by any linear weighted combination of those vectors
+
+]]></description><link>learning\math\linear-algebra\theory,-intuition,-code\vector-spaces.html</link><guid isPermaLink="false">Learning/Math/Linear Algebra/Theory, Intuition, Code/Vector Spaces.md</guid><pubDate>Mon, 06 May 2024 02:33:05 GMT</pubDate></item><item><title><![CDATA[Vectors]]></title><description><![CDATA[ 
+ <br>Scalars - Single numbers -- constants.<br><br><br>Vector is a line -- [1 2], a line with slope 2.<br><br><br><br>Convention to assume vectors are in column orientation, unless stated otherwise!<br><br><br><br>Should be trivial.<br><br>Also known as the inner product or scalar product.<br>
+Important because it provides information about the relationship between two vectors.<br>
+Is applied in:<br>
+<br>Convolution
+<br>Correlation
+<br>Fourier Transform
+<br>Matrix Multiplication
+<br>Signal Filtering
+<br><br><br>Example: <br><br>Taking the dot product on vector itself:<br><br><br><br>Scalar:                       (c is a constant)<br>
+However, this does not apply with dot products:<br>
+Row vs. Column Vector Output: <br><br><br><br>Interesting Example:<br>
+<br><br><br><br><br> = Angle between two vectors<br>
+Can rewrite the equation:<br>
+
+<br><br>Sign is determined exclusively by angle (the magnitudes are lengths and thus always positive)
+1 Cosine of acute angle is always positive<br>
+2 Cosine of obtuse angle is always negative<br>
+3 Cosine of right angle is 0, vectors are orthogonal<br>
+4 Cosine of 0 is 1. The lines are collinear (or the same line).<br>
+5 Same as 4, but with negative sign. Still referred to as collinear<br>
+
+<br><br>Equivalence
+ 
+<br>Proof
+Check page 53 of Cohen, to prove:<br>
+
+<br><br>
+
+<br>
+<br>All vectors have the same dimensionality
+<br> can be any real number including 0.
+<br><br>Way of combining two vectors to produce a matrix.
+ and  are column vectors.<br>
+
+<br><br>Each element  in the outer product matrix is the scalar multiplication between  element in first vector and  element in second.<br> <br><br><br>Each column in the outer product matrix comes from repeating the left vector but scaled by each element in the row vector<br><br>Form outer product matrix one row at a time, by repeating row vector M times (for M elements of vector w).<br><br>Multiply corresponding elements in the two vectors. Requires same number of elements.<br>
+<br><br>Only defined for 3-element vectors, and results in another 3-element vector.<br>Geometry based formula, used to create a vector c which is orthogonal to the plane spanned by vectors  and . <br><br>Vector with length of one: <br>
+ ]]></description><link>learning\math\linear-algebra\theory,-intuition,-code\vectors.html</link><guid isPermaLink="false">Learning/Math/Linear Algebra/Theory, Intuition, Code/Vectors.md</guid><pubDate>Sun, 05 May 2024 17:03:11 GMT</pubDate></item><item><title><![CDATA[Math]]></title><description><![CDATA[ 
+ <br><br>
+<br>Linear Algebra
+
+<br>Theory, Intuition, Code
+
+<br><a data-href="Vector Spaces" href="\learning\math\linear-algebra\theory,-intuition,-code\vector-spaces.html" class="internal-link" target="_self" rel="noopener">Vector Spaces</a>
+<br><a data-href="Vectors" href="\learning\math\linear-algebra\theory,-intuition,-code\vectors.html" class="internal-link" target="_self" rel="noopener">Vectors</a>
+
+
+
+
+<br>]]></description><link>learning\math\math.html</link><guid isPermaLink="false">Learning/Math/Math.md</guid><pubDate>Mon, 06 May 2024 01:50:52 GMT</pubDate></item><item><title><![CDATA[Learning]]></title><description><![CDATA[ 
+ <br><br>
+<br>Books
+
+<br><a data-href="Authors" href="\learning\books\authors.html" class="internal-link" target="_self" rel="noopener">Authors</a>
+<br>Bhagvatam
+
+<br><a data-href="Before You Read" href="\learning\books\bhagvatam\before-you-read.html" class="internal-link" target="_self" rel="noopener">Before You Read</a>
+
+
+<br><a data-href="List" href="\learning\books\list.html" class="internal-link" target="_self" rel="noopener">List</a>
+
+
+<br><a data-href="Math" href="\learning\math\math.html" class="internal-link" target="_self" rel="noopener">Math</a>
+
+<br>Linear Algebra
+
+<br>Theory, Intuition, Code
+
+<br><a data-href="Vector Spaces" href="\learning\math\linear-algebra\theory,-intuition,-code\vector-spaces.html" class="internal-link" target="_self" rel="noopener">Vector Spaces</a>
+<br><a data-href="Vectors" href="\learning\math\linear-algebra\theory,-intuition,-code\vectors.html" class="internal-link" target="_self" rel="noopener">Vectors</a>
+
+
+
+
+
+
+<br>]]></description><link>learning\learning.html</link><guid isPermaLink="false">Learning/Learning.md</guid><pubDate>Mon, 06 May 2024 01:50:52 GMT</pubDate></item></channel></rss>
