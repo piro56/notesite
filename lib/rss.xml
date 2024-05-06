@@ -1,25 +1,24 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Vidya]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Vidya</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 06 May 2024 17:11:30 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 06 May 2024 17:11:30 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Index]]></title><description><![CDATA[ 
- <br><a data-href="Learning" href="\learning\learning.html" class="internal-link" target="_self" rel="noopener">Learning</a>]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Mon, 06 May 2024 17:11:06 GMT</pubDate></item><item><title><![CDATA[First must live the Bhagavad Gita]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Vidya]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://piro56.github.io/notesite/</link><image><url>https://piro56.github.io/notesite/lib/media/favicon.png</url><title>Vidya</title><link>https://piro56.github.io/notesite/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 06 May 2024 17:24:06 GMT</lastBuildDate><atom:link href="https://piro56.github.io/notesite/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 06 May 2024 17:24:05 GMT</pubDate><copyright><![CDATA[Meet Patel]]></copyright><ttl>60</ttl><dc:creator>Meet Patel</dc:creator><item><title><![CDATA[First must live the Bhagavad Gita]]></title><description><![CDATA[ 
  <br><br>Shrimad Bhagavatam: Supreme Science of the Supreme Person<br>First Canto: Gives clear explanation of the Bhagavatam.<br>
 <br>Gives essence of the Vedas for devotees. 
 <br>Helps further devotion
 <br>Chanting helps
 <br>Do not skip anything
 <br>Gradually elevates reader to understand teachings in succession
-]]></description><link>learning\books\bhagvatam\before-you-read.html</link><guid isPermaLink="false">Learning/Books/Bhagvatam/Before You Read.md</guid><pubDate>Sun, 05 May 2024 16:45:13 GMT</pubDate></item><item><title><![CDATA[Authors]]></title><description><![CDATA[ 
+]]></description><link>https://piro56.github.io/notesite/learning/books/bhagvatam/before-you-read.html</link><guid isPermaLink="false">Learning/Books/Bhagvatam/Before You Read.md</guid><dc:creator><![CDATA[Meet Patel]]></dc:creator><pubDate>Sun, 05 May 2024 16:45:13 GMT</pubDate></item><item><title><![CDATA[Authors]]></title><description><![CDATA[ 
  <br>
 <br>Candrakirti
 <br>Nagarjuna
 <br>Sankaracharya
 <br>Vivekananda
-]]></description><link>learning\books\authors.html</link><guid isPermaLink="false">Learning/Books/Authors.md</guid><pubDate>Tue, 30 Apr 2024 01:19:51 GMT</pubDate></item><item><title><![CDATA[List]]></title><description><![CDATA[ 
+]]></description><link>https://piro56.github.io/notesite/learning/books/authors.html</link><guid isPermaLink="false">Learning/Books/Authors.md</guid><dc:creator><![CDATA[Meet Patel]]></dc:creator><pubDate>Tue, 30 Apr 2024 01:19:51 GMT</pubDate></item><item><title><![CDATA[List]]></title><description><![CDATA[ 
  <br>
 <br>&nbsp;Nāgārjuna's Madhyamaka: A Philosophical Introduction Jan Westeroff
 <br>Tattvabodha - Adi Sankaracharya
 <br>Problem of Evil in Indian Thought - Professor Arthur Herman
 <br>Bhagvatam
 <br>Satsangi Jivan
-]]></description><link>learning\books\list.html</link><guid isPermaLink="false">Learning/Books/List.md</guid><pubDate>Sat, 04 May 2024 03:09:17 GMT</pubDate></item><item><title><![CDATA[Vector Spaces]]></title><description><![CDATA[ 
+]]></description><link>https://piro56.github.io/notesite/learning/books/list.html</link><guid isPermaLink="false">Learning/Books/List.md</guid><dc:creator><![CDATA[Meet Patel]]></dc:creator><pubDate>Sat, 04 May 2024 03:09:17 GMT</pubDate></item><item><title><![CDATA[Vector Spaces]]></title><description><![CDATA[ 
  <br><br><br>Simply the number of elements in the vector. Order is important, but no dimension is more important than another,<br><br>Dimensionality of a vector is number of coordinate axes the vector exists.<br>
 For example 2D vector is in 2D space.<br>Major departure from typical Cartesian axis:<br>
 <br>Coordinates do not need to be orthogonal (ex. x and y dimensions are orthogonal from one another)
@@ -66,7 +65,7 @@ Can be thought of as:<br>
 A set of vectors span, and the result is a subspace.
 <br><br>Span is set of all points that can be obtained by any linear weighted combination of those vectors
 
-]]></description><link>learning\math\linear-algebra\theory,-intuition,-code\vector-spaces.html</link><guid isPermaLink="false">Learning/Math/Linear Algebra/Theory, Intuition, Code/Vector Spaces.md</guid><pubDate>Mon, 06 May 2024 02:33:05 GMT</pubDate></item><item><title><![CDATA[Vectors]]></title><description><![CDATA[ 
+]]></description><link>https://piro56.github.io/notesite/learning/math/linear-algebra/theory,-intuition,-code/vector-spaces.html</link><guid isPermaLink="false">Learning/Math/Linear Algebra/Theory, Intuition, Code/Vector Spaces.md</guid><dc:creator><![CDATA[Meet Patel]]></dc:creator><pubDate>Mon, 06 May 2024 02:33:05 GMT</pubDate></item><item><title><![CDATA[Vectors]]></title><description><![CDATA[ 
  <br>Scalars - Single numbers -- constants.<br><br><br>Vector is a line -- [1 2], a line with slope 2.<br><br><br><br>Convention to assume vectors are in column orientation, unless stated otherwise!<br><br><br><br>Should be trivial.<br><br>Also known as the inner product or scalar product.<br>
 Important because it provides information about the relationship between two vectors.<br>
 Is applied in:<br>
@@ -103,43 +102,44 @@ Check page 53 of Cohen, to prove:<br>
 
 <br><br>Each element  in the outer product matrix is the scalar multiplication between  element in first vector and  element in second.<br> <br><br><br>Each column in the outer product matrix comes from repeating the left vector but scaled by each element in the row vector<br><br>Form outer product matrix one row at a time, by repeating row vector M times (for M elements of vector w).<br><br>Multiply corresponding elements in the two vectors. Requires same number of elements.<br>
 <br><br>Only defined for 3-element vectors, and results in another 3-element vector.<br>Geometry based formula, used to create a vector c which is orthogonal to the plane spanned by vectors  and . <br><br>Vector with length of one: <br>
- ]]></description><link>learning\math\linear-algebra\theory,-intuition,-code\vectors.html</link><guid isPermaLink="false">Learning/Math/Linear Algebra/Theory, Intuition, Code/Vectors.md</guid><pubDate>Sun, 05 May 2024 17:03:11 GMT</pubDate></item><item><title><![CDATA[Math]]></title><description><![CDATA[ 
+ ]]></description><link>https://piro56.github.io/notesite/learning/math/linear-algebra/theory,-intuition,-code/vectors.html</link><guid isPermaLink="false">Learning/Math/Linear Algebra/Theory, Intuition, Code/Vectors.md</guid><dc:creator><![CDATA[Meet Patel]]></dc:creator><pubDate>Sun, 05 May 2024 17:03:11 GMT</pubDate></item><item><title><![CDATA[Math]]></title><description><![CDATA[ 
  <br><br>
 <br>Linear Algebra
 
 <br>Theory, Intuition, Code
 
-<br><a data-href="Vector Spaces" href="\learning\math\linear-algebra\theory,-intuition,-code\vector-spaces.html" class="internal-link" target="_self" rel="noopener">Vector Spaces</a>
-<br><a data-href="Vectors" href="\learning\math\linear-algebra\theory,-intuition,-code\vectors.html" class="internal-link" target="_self" rel="noopener">Vectors</a>
+<br><a data-href="Vector Spaces" href="https://piro56.github.io/notesite/learning/math/linear-algebra/theory,-intuition,-code/vector-spaces.html" class="internal-link" target="_self" rel="noopener">Vector Spaces</a>
+<br><a data-href="Vectors" href="https://piro56.github.io/notesite/learning/math/linear-algebra/theory,-intuition,-code/vectors.html" class="internal-link" target="_self" rel="noopener">Vectors</a>
 
 
 
 
-<br>]]></description><link>learning\math\math.html</link><guid isPermaLink="false">Learning/Math/Math.md</guid><pubDate>Mon, 06 May 2024 01:50:52 GMT</pubDate></item><item><title><![CDATA[Learning]]></title><description><![CDATA[ 
+<br>]]></description><link>https://piro56.github.io/notesite/learning/math/math.html</link><guid isPermaLink="false">Learning/Math/Math.md</guid><dc:creator><![CDATA[Meet Patel]]></dc:creator><pubDate>Mon, 06 May 2024 01:50:52 GMT</pubDate></item><item><title><![CDATA[Learning]]></title><description><![CDATA[ 
  <br><br>
 <br>Books
 
-<br><a data-href="Authors" href="\learning\books\authors.html" class="internal-link" target="_self" rel="noopener">Authors</a>
+<br><a data-href="Authors" href="https://piro56.github.io/notesite/learning/books/authors.html" class="internal-link" target="_self" rel="noopener">Authors</a>
 <br>Bhagvatam
 
-<br><a data-href="Before You Read" href="\learning\books\bhagvatam\before-you-read.html" class="internal-link" target="_self" rel="noopener">Before You Read</a>
+<br><a data-href="Before You Read" href="https://piro56.github.io/notesite/learning/books/bhagvatam/before-you-read.html" class="internal-link" target="_self" rel="noopener">Before You Read</a>
 
 
-<br><a data-href="List" href="\learning\books\list.html" class="internal-link" target="_self" rel="noopener">List</a>
+<br><a data-href="List" href="https://piro56.github.io/notesite/learning/books/list.html" class="internal-link" target="_self" rel="noopener">List</a>
 
 
-<br><a data-href="Math" href="\learning\math\math.html" class="internal-link" target="_self" rel="noopener">Math</a>
+<br><a data-href="Math" href="https://piro56.github.io/notesite/learning/math/math.html" class="internal-link" target="_self" rel="noopener">Math</a>
 
 <br>Linear Algebra
 
 <br>Theory, Intuition, Code
 
-<br><a data-href="Vector Spaces" href="\learning\math\linear-algebra\theory,-intuition,-code\vector-spaces.html" class="internal-link" target="_self" rel="noopener">Vector Spaces</a>
-<br><a data-href="Vectors" href="\learning\math\linear-algebra\theory,-intuition,-code\vectors.html" class="internal-link" target="_self" rel="noopener">Vectors</a>
+<br><a data-href="Vector Spaces" href="https://piro56.github.io/notesite/learning/math/linear-algebra/theory,-intuition,-code/vector-spaces.html" class="internal-link" target="_self" rel="noopener">Vector Spaces</a>
+<br><a data-href="Vectors" href="https://piro56.github.io/notesite/learning/math/linear-algebra/theory,-intuition,-code/vectors.html" class="internal-link" target="_self" rel="noopener">Vectors</a>
 
 
 
 
 
 
-<br>]]></description><link>learning\learning.html</link><guid isPermaLink="false">Learning/Learning.md</guid><pubDate>Mon, 06 May 2024 01:50:52 GMT</pubDate></item></channel></rss>
+<br>]]></description><link>https://piro56.github.io/notesite/learning/learning.html</link><guid isPermaLink="false">Learning/Learning.md</guid><dc:creator><![CDATA[Meet Patel]]></dc:creator><pubDate>Mon, 06 May 2024 01:50:52 GMT</pubDate></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
+ <br><a data-href="Learning" href="https://piro56.github.io/notesite/learning/learning.html" class="internal-link" target="_self" rel="noopener">Learning</a>]]></description><link>https://piro56.github.io/notesite/index.html</link><guid isPermaLink="false">Index.md</guid><dc:creator><![CDATA[Meet Patel]]></dc:creator><pubDate>Mon, 06 May 2024 17:11:06 GMT</pubDate></item></channel></rss>
