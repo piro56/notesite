@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Vidya]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://piro56.github.io/notesite/</link><image><url>https://piro56.github.io/notesite/lib/media/favicon.png</url><title>Vidya</title><link>https://piro56.github.io/notesite/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 06 May 2024 17:30:16 GMT</lastBuildDate><atom:link href="https://piro56.github.io/notesite/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 06 May 2024 17:30:14 GMT</pubDate><copyright><![CDATA[Meet Patel]]></copyright><ttl>60</ttl><dc:creator>Meet Patel</dc:creator><item><title><![CDATA[First must live the Bhagavad Gita]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Vidya]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://piro56.github.io/notesite/</link><image><url>https://piro56.github.io/notesite/lib/media/favicon.png</url><title>Vidya</title><link>https://piro56.github.io/notesite/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 08 May 2024 01:33:23 GMT</lastBuildDate><atom:link href="https://piro56.github.io/notesite/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 08 May 2024 01:33:20 GMT</pubDate><copyright><![CDATA[Meet Patel]]></copyright><ttl>60</ttl><dc:creator>Meet Patel</dc:creator><item><title><![CDATA[First must live the Bhagavad Gita]]></title><description><![CDATA[ 
  <br><br>Shrimad Bhagavatam: Supreme Science of the Supreme Person<br>First Canto: Gives clear explanation of the Bhagavatam.<br>
 <br>Gives essence of the Vedas for devotees. 
 <br>Helps further devotion
@@ -18,7 +18,44 @@
 <br>Problem of Evil in Indian Thought - Professor Arthur Herman
 <br>Bhagvatam
 <br>Satsangi Jivan
-]]></description><link>https://piro56.github.io/notesite/learning/books/list.html</link><guid isPermaLink="false">Learning/Books/List.md</guid><dc:creator><![CDATA[Meet Patel]]></dc:creator><pubDate>Sat, 04 May 2024 03:09:17 GMT</pubDate></item><item><title><![CDATA[Vector Spaces]]></title><description><![CDATA[ 
+]]></description><link>https://piro56.github.io/notesite/learning/books/list.html</link><guid isPermaLink="false">Learning/Books/List.md</guid><dc:creator><![CDATA[Meet Patel]]></dc:creator><pubDate>Sat, 04 May 2024 03:09:17 GMT</pubDate></item><item><title><![CDATA[1 Vectors]]></title><description><![CDATA[ 
+ <br>Scalars - Single numbers -- constants.<br><br><br>Vector is a line -- [1 2], a line with slope 2.<br><br><br><br>Convention to assume vectors are in column orientation, unless stated otherwise!<br><br><br><br>Should be trivial.<br><br>Also known as the inner product or scalar product.<br>
+Important because it provides information about the relationship between two vectors.<br>
+Is applied in:<br>
+<br>Convolution
+<br>Correlation
+<br>Fourier Transform
+<br>Matrix Multiplication
+<br>Signal Filtering
+<br><br><br>Example: <br><br>Taking the dot product on vector itself:<br><br><br><br>Scalar:                       (c is a constant)<br>
+However, this does not apply with dot products:<br>
+Row vs. Column Vector Output: <br><br><br><br>Interesting Example:<br>
+<br><br><br><br><br> = Angle between two vectors<br>
+Can rewrite the equation:<br>
+
+<br><br>Sign is determined exclusively by angle (the magnitudes are lengths and thus always positive)
+1 Cosine of acute angle is always positive<br>
+2 Cosine of obtuse angle is always negative<br>
+3 Cosine of right angle is 0, vectors are orthogonal<br>
+4 Cosine of 0 is 1. The lines are collinear (or the same line).<br>
+5 Same as 4, but with negative sign. Still referred to as collinear<br>
+
+<br><br>Equivalence
+ 
+<br>Proof
+Check page 53 of Cohen, to prove:<br>
+
+<br><br>
+
+<br>
+<br>All vectors have the same dimensionality
+<br> can be any real number including 0.
+<br><br>Way of combining two vectors to produce a matrix.
+ and  are column vectors.<br>
+
+<br><br>Each element  in the outer product matrix is the scalar multiplication between  element in first vector and  element in second.<br> <br><br><br>Each column in the outer product matrix comes from repeating the left vector but scaled by each element in the row vector<br><br>Form outer product matrix one row at a time, by repeating row vector M times (for M elements of vector w).<br><br>Multiply corresponding elements in the two vectors. Requires same number of elements.<br>
+<br><br>Only defined for 3-element vectors, and results in another 3-element vector.<br>Geometry based formula, used to create a vector c which is orthogonal to the plane spanned by vectors  and . <br><br>Vector with length of one: <br>
+ ]]></description><link>https://piro56.github.io/notesite/learning/math/linear-algebra/theory,-intuition,-code/1-vectors.html</link><guid isPermaLink="false">Learning/Math/Linear Algebra/Theory, Intuition, Code/1 Vectors.md</guid><dc:creator><![CDATA[Meet Patel]]></dc:creator><pubDate>Sun, 05 May 2024 17:03:11 GMT</pubDate></item><item><title><![CDATA[2 Vector Spaces]]></title><description><![CDATA[ 
  <br><br><br>Simply the number of elements in the vector. Order is important, but no dimension is more important than another,<br><br>Dimensionality of a vector is number of coordinate axes the vector exists.<br>
 For example 2D vector is in 2D space.<br>Major departure from typical Cartesian axis:<br>
 <br>Coordinates do not need to be orthogonal (ex. x and y dimensions are orthogonal from one another)
@@ -65,56 +102,130 @@ Can be thought of as:<br>
 A set of vectors span, and the result is a subspace.
 <br><br>Span is set of all points that can be obtained by any linear weighted combination of those vectors
 
-]]></description><link>https://piro56.github.io/notesite/learning/math/linear-algebra/theory,-intuition,-code/vector-spaces.html</link><guid isPermaLink="false">Learning/Math/Linear Algebra/Theory, Intuition, Code/Vector Spaces.md</guid><dc:creator><![CDATA[Meet Patel]]></dc:creator><pubDate>Mon, 06 May 2024 02:33:05 GMT</pubDate></item><item><title><![CDATA[Vectors]]></title><description><![CDATA[ 
- <br>Scalars - Single numbers -- constants.<br><br><br>Vector is a line -- [1 2], a line with slope 2.<br><br><br><br>Convention to assume vectors are in column orientation, unless stated otherwise!<br><br><br><br>Should be trivial.<br><br>Also known as the inner product or scalar product.<br>
-Important because it provides information about the relationship between two vectors.<br>
-Is applied in:<br>
-<br>Convolution
-<br>Correlation
-<br>Fourier Transform
-<br>Matrix Multiplication
-<br>Signal Filtering
-<br><br><br>Example: <br><br>Taking the dot product on vector itself:<br><br><br><br>Scalar:                       (c is a constant)<br>
-However, this does not apply with dot products:<br>
-Row vs. Column Vector Output: <br><br><br><br>Interesting Example:<br>
-<br><br><br><br><br> = Angle between two vectors<br>
-Can rewrite the equation:<br>
+<br><br><br>Set of vectors is independent iff the dimensionality of the subspace spanned is equal to the number of vectors in the set.
 
-<br><br>Sign is determined exclusively by angle (the magnitudes are lengths and thus always positive)
-1 Cosine of acute angle is always positive<br>
-2 Cosine of obtuse angle is always negative<br>
-3 Cosine of right angle is 0, vectors are orthogonal<br>
-4 Cosine of 0 is 1. The lines are collinear (or the same line).<br>
-5 Same as 4, but with negative sign. Still referred to as collinear<br>
+<br>A linearly independent set of 2 vectors spans a plane (2D)
+<br>A linearly independent set of 3 vectors, spans a 3D space.
 
-<br><br>Equivalence
- 
-<br>Proof
-Check page 53 of Cohen, to prove:<br>
+<br>Note, have 2 vectors in a set does not necessarily endow that set with linear independence.<br>
+<br>For example, having 2 collinear vectors is not linear independence since they span a 1D space.
 
-<br><br>
+<br>: Does not span 2d space, since collinear.
 
+
+<br>Having 3 vectors in  does not imply independence, since they can only span 2D space, not 3D.
+
+<br>:  can be obtained from adding , also obvious we can only span 2D space.
+
+
+<br>Theorem
+
+<br>Any set of  vectors in  is necessarily linearly dependent.
+<br>Any set of  vectors in  is possibly linearly independent.
+
+<br><br>A set of vectors is dependent if at least one vector can be expressed as a linear weighted combination of the other vectors in that set
+Dependent Set: 
+<br>Example of dependent set. We can see  can be created from <br>
+<br>Any vector with the zeros vector is dependent.<br>Determining whether a set is linearly dependent or independent<br>
+<br>Count number of vectors, using theorem, if  then it is necessarily dependent, else, you move to step 2
+<br>Check for zeros vector
+<br>Do guessing by looking for zeros in entries and taking advantage that nothing can be created with zeros.
+<br>Educated guessing: try creating a weighted combination of one element using combination of other vectors.
+<br><br>Basis is the combination if span and independence
+A set of vectors  forms a basis for some subspace of  IF it both:
+
+<br>Spans that subspace
+<br>Is an independent set of vectors
+
+<br>Cartesian Axis Basis Vectors
+  
+<br>It is not necessary for a basis to span all of , you can have basis sets for subspaces embedded in 
+
+<br>Geometric Tip: A basis should provide a unique way to obtain a pair of coordinates (think cartesian basis which can directly correspond to x,y,z). If a basis set were not linearly independent, then we would not have a unique way to obtain all coordinates -- some coordinates could be produced in infinitely many ways.]]></description><link>https://piro56.github.io/notesite/learning/math/linear-algebra/theory,-intuition,-code/2-vector-spaces.html</link><guid isPermaLink="false">Learning/Math/Linear Algebra/Theory, Intuition, Code/2 Vector Spaces.md</guid><dc:creator><![CDATA[Meet Patel]]></dc:creator><pubDate>Tue, 07 May 2024 23:04:58 GMT</pubDate></item><item><title><![CDATA[3 Matrices]]></title><description><![CDATA[ 
+ <br>Rows and Columns<br>
+Matrix Related Terms:<br>
+<br>Row, Column
+<br>Element
+<br>Block
+<br>Diagonal
+<br>Skew-Diagonal
+<br>Off-Diagonal
+<br>Block Matrix: A matrix that is composed of smaller matrices<br>MR NiCe, M = Row, N = Column in a  matrix<br><br>Dimensionality is flexible and versatile. Matrices can have different interpretations of dimensionality based on application.<br>
 <br>
-<br>All vectors have the same dimensionality
-<br> can be any real number including 0.
-<br><br>Way of combining two vectors to produce a matrix.
- and  are column vectors.<br>
+<br> - If each matrix element is it's own dimension
+<br> - If matrix is a series of column vectors
+<br> - If matrix is a series of row vectors
+<br><br>Swap rows for columns and vice versa
 
-<br><br>Each element  in the outer product matrix is the scalar multiplication between  element in first vector and  element in second.<br> <br><br><br>Each column in the outer product matrix comes from repeating the left vector but scaled by each element in the row vector<br><br>Form outer product matrix one row at a time, by repeating row vector M times (for M elements of vector w).<br><br>Multiply corresponding elements in the two vectors. Requires same number of elements.<br>
-<br><br>Only defined for 3-element vectors, and results in another 3-element vector.<br>Geometry based formula, used to create a vector c which is orthogonal to the plane spanned by vectors  and . <br><br>Vector with length of one: <br>
- ]]></description><link>https://piro56.github.io/notesite/learning/math/linear-algebra/theory,-intuition,-code/vectors.html</link><guid isPermaLink="false">Learning/Math/Linear Algebra/Theory, Intuition, Code/Vectors.md</guid><dc:creator><![CDATA[Meet Patel]]></dc:creator><pubDate>Sun, 05 May 2024 17:03:11 GMT</pubDate></item><item><title><![CDATA[Math]]></title><description><![CDATA[ 
+
+<br><br>Non-exhaustive categorization of some special matrices.<br><br>Square:  matrix.<br>
+Rectangular: <br><br>A matrix is symmetric if it is "mirrored" across the diagonal.<br>Formally a matrix is symmetric if it equals it's transpose.
+
+
+<br>Symmetric matrices have many useful  properties.<br><br>Skew-Symmetric: Where the lower-triangle is the sign flipped version of the upper triangle.
+
+
+<br>Diagonals must be zero for skew-symmetric . <br><br>Matrix equivalent to the number "1"<br>Identity
+Has 's on the diagonals.<br>
+
+<br>Although known as the identity matrix, it is more accurately the: multiplicative identity matrix
+For addition, the identity matrix is the zeros matrix.
+<br><br>Matrix of all zeros. Is the identity matrix for addition.<br>
+<br>
+<br><br> is one of the most important matrix forms in linear algebra.
+Key properties of  (also ):
+
+<br>Is a square matrix even if  is rectangular.
+<br>Symmetric even if  isn't.
+<br>Full-rank if  is full column-rank.
+<br>Invertible if  is full column-rank
+<br>Same row space as 
+<br>Has orthogonal eigenvectors
+<br>Positive (semi)definite
+<br>Has non-negative, real-valued eigenvalues
+<br>Is called a "covariance matrix" if  is a data mtrix
+<br>Looks pretty?
+
+<br><br>All zeros on off-diagonals.<br>If all diagonals are the same:
+
+<br>Diagonal matrices can be rectangular.
+
+<br><br>The result of concatenating two or more matrices column wise.<br><br><br>Halfway between diagonal and  full matrix.<br>
+Upper Triangular: Only diagonal and above have elements<br>
+Lower Triangular:** Only diagonal and below have elements<br><br>Dense: A matrix where most elements are non-zero.<br>
+Sparse: A matrix where most elements are zero.<br><br>Orthogonal Criteria
+
+<br>All of it's columns are pairwise orthogonal. Dot product between any two columns is 0.
+<br>Unit Magnitude: each column  has , 
+
+<br><br>Diagonals have the same element
+
+<br><br>Similar to a rotated Toeplitz
+
+<br>Creating a Hankel matrix from a vector
+
+<br><br><br>Pretty simple.<br>
+Commutative: <br><br><br><br>Shifting and Properties
+
+
+<br>Only diagonal elements get changed.
+<br>Shifting can make matrices with redundant rows (or columns), distinct.
+<br>When  is close to zero, then  is similar to .
+
+<br><br>Get the diagonal vector from a matrix.<br><br>Sum of diagonal elements.<br>Trace is only defined for square matrices]]></description><link>https://piro56.github.io/notesite/learning/math/linear-algebra/theory,-intuition,-code/3-matrices.html</link><guid isPermaLink="false">Learning/Math/Linear Algebra/Theory, Intuition, Code/3 Matrices.md</guid><dc:creator><![CDATA[Meet Patel]]></dc:creator><pubDate>Wed, 08 May 2024 01:29:45 GMT</pubDate></item><item><title><![CDATA[Math]]></title><description><![CDATA[ 
  <br><br>
 <br>Linear Algebra
 
 <br>Theory, Intuition, Code
 
-<br><a data-href="Vector Spaces" href="https://piro56.github.io/notesite/learning/math/linear-algebra/theory,-intuition,-code/vector-spaces.html" class="internal-link" target="_self" rel="noopener">Vector Spaces</a>
-<br><a data-href="Vectors" href="https://piro56.github.io/notesite/learning/math/linear-algebra/theory,-intuition,-code/vectors.html" class="internal-link" target="_self" rel="noopener">Vectors</a>
+<br><a data-href="1 Vectors" href="https://piro56.github.io/notesite/learning/math/linear-algebra/theory,-intuition,-code/1-vectors.html" class="internal-link" target="_self" rel="noopener">1 Vectors</a>
+<br><a data-href="2 Vector Spaces" href="https://piro56.github.io/notesite/learning/math/linear-algebra/theory,-intuition,-code/2-vector-spaces.html" class="internal-link" target="_self" rel="noopener">2 Vector Spaces</a>
+<br><a data-href="3 Matrices" href="https://piro56.github.io/notesite/learning/math/linear-algebra/theory,-intuition,-code/3-matrices.html" class="internal-link" target="_self" rel="noopener">3 Matrices</a>
 
 
 
 
-<br>]]></description><link>https://piro56.github.io/notesite/learning/math/math.html</link><guid isPermaLink="false">Learning/Math/Math.md</guid><dc:creator><![CDATA[Meet Patel]]></dc:creator><pubDate>Mon, 06 May 2024 01:50:52 GMT</pubDate></item><item><title><![CDATA[Learning]]></title><description><![CDATA[ 
+<br>]]></description><link>https://piro56.github.io/notesite/learning/math/math.html</link><guid isPermaLink="false">Learning/Math/Math.md</guid><dc:creator><![CDATA[Meet Patel]]></dc:creator><pubDate>Tue, 07 May 2024 23:25:29 GMT</pubDate></item><item><title><![CDATA[Learning]]></title><description><![CDATA[ 
  <br><br>
 <br>Books
 
@@ -133,14 +244,14 @@ Check page 53 of Cohen, to prove:<br>
 
 <br>Theory, Intuition, Code
 
-<br><a data-href="Vector Spaces" href="https://piro56.github.io/notesite/learning/math/linear-algebra/theory,-intuition,-code/vector-spaces.html" class="internal-link" target="_self" rel="noopener">Vector Spaces</a>
-<br><a data-href="Vectors" href="https://piro56.github.io/notesite/learning/math/linear-algebra/theory,-intuition,-code/vectors.html" class="internal-link" target="_self" rel="noopener">Vectors</a>
+<br><a data-href="1 Vectors" href="https://piro56.github.io/notesite/learning/math/linear-algebra/theory,-intuition,-code/1-vectors.html" class="internal-link" target="_self" rel="noopener">1 Vectors</a>
+<br><a data-href="2 Vector Spaces" href="https://piro56.github.io/notesite/learning/math/linear-algebra/theory,-intuition,-code/2-vector-spaces.html" class="internal-link" target="_self" rel="noopener">2 Vector Spaces</a>
+<br><a data-href="3 Matrices" href="https://piro56.github.io/notesite/learning/math/linear-algebra/theory,-intuition,-code/3-matrices.html" class="internal-link" target="_self" rel="noopener">3 Matrices</a>
 
 
 
 
 
 
-<br>]]></description><link>https://piro56.github.io/notesite/learning/learning.html</link><guid isPermaLink="false">Learning/Learning.md</guid><dc:creator><![CDATA[Meet Patel]]></dc:creator><pubDate>Mon, 06 May 2024 01:50:52 GMT</pubDate></item><item><title><![CDATA[404]]></title><description><![CDATA[ 
- <br><br>Oops.]]></description><link>https://piro56.github.io/notesite/404.html</link><guid isPermaLink="false">404.md</guid><dc:creator><![CDATA[Meet Patel]]></dc:creator><pubDate>Mon, 06 May 2024 17:30:01 GMT</pubDate></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
+<br>]]></description><link>https://piro56.github.io/notesite/learning/learning.html</link><guid isPermaLink="false">Learning/Learning.md</guid><dc:creator><![CDATA[Meet Patel]]></dc:creator><pubDate>Tue, 07 May 2024 23:25:29 GMT</pubDate></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
  <br><a data-href="Learning" href="https://piro56.github.io/notesite/learning/learning.html" class="internal-link" target="_self" rel="noopener">Learning</a>]]></description><link>https://piro56.github.io/notesite/index.html</link><guid isPermaLink="false">Index.md</guid><dc:creator><![CDATA[Meet Patel]]></dc:creator><pubDate>Mon, 06 May 2024 17:11:06 GMT</pubDate></item></channel></rss>
